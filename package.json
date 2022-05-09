@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css --watch"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css --watch",
+    "deploy": "gh-pages -d public"
   },
   "author": "",
   "license": "ISC",
