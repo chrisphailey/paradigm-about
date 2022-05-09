@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "flowbite": "^1.4.5",
+    "gh-pages": "^3.2.3",
     "swiper": "^8.1.4",
     "tw-elements": "^1.0.0-alpha12"
   }
