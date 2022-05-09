@@ -6,31 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradigm About Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="styles.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://use.typekit.net/byy1vzy.css">
+<link href="styles.css" rel="stylesheet">
+
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="text-black-100">
     <div class=""> <!-- content wrapper-->
         <div class="" >
-            <nav class=" bg-white flex flex-row columns-2 justify-between ">
-                <div class="ml-20 w-1/5 justify-start items-center">
+            <nav class=" bg-white flex flex-row columns-2 justify-between items-center ">
+                <div class="ml-20 w-1/5">
                     <a href="/"><img  class="object-scale-down"id="logo" src="./assets/images/logo/Perkins-Everitt-Horizontal-Logo-RGB-Black copy.svg" /></a>
                 </div>
                 <div class="flex w-1/2 items-center">
                     <ul class="flex flex-row justify-around w-full text-black">
-                        <li >
-                            <span>ABOUT US</span>
+                        <li class="nav-list-item">
+                            <button class="rounded-full"><span>ABOUT US</span></button>
                         </li>
-                        <li>
-                            <span>PROUDUCTS</span>
+                        <li class="nav-list-item">
+                            <button class="rounded-full"><span>PROUDUCTS</span></button>
                         </li>
-                        <li>
-                            <span>OUR PORTFOLIO</span>
+                        <li class="nav-list-item">
+                            <button class="rounded-full"><span>OUR PORTFOLIO</span></button>
                         </li>
-                        <li>
-                            <span>CAREERS</span>
+                        <li class="nav-list-item"> 
+                            <button class="rounded-full"><span>CAREERS</span></button>
                         </li>
-                        <li>
-                            <span>CONTACT US</span>
+                        <li class="nav-list-item">
+                            <button class="rounded-full"><span>CONTACT US</span></button>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +61,6 @@
                             <h2 class=" text-4xl z-20 ">Collaboration that Innovates,</h2>
                             <h2 class=" text-4xl z-20 ">Design that Illuminates</h2>
                             <div class="rotate-90 flex justify-items-end">
-                                <p >scroll</p>
                             </div>
                         </div>
                         <div class=" flex flex-col w-1/2">
@@ -64,162 +70,88 @@
                     </div>
                     <div class="section-2 flex flex-row justify-between items-center relative h-96 bg-blue-500">
                         <img class="table-img max-h-96 absolute ml-56 w-96  z-30 mb-32 "src="./assets/images/white-rainforest-CVVbynP7DQ4-unsplash.jpg" alt="lighting">
-                        <div class="max-w-xs max-h-6 absolute mr-40 mt-12 right-0 mb-32 z-40">
+                        <div class="max-w-xs max-h-6 absolute mr-48 mt-12 right-0 mb-32 z-40 text-white">
                             <p>At Perkins-Everitt Lighting & Controls, we believe lighting design deserves thoughtful details, dependable products, and elevated expectations. We collaborate with you through the initial design, partner through product selection and sales, and stay in step with you through logistics, distribution, and final installation. Our Memphis, TN-based team uses each of our unique backgrounds in the industry to build on your vision and to transform spaces into something enjoyable.</p>
                         </div>
                     </div>
-                    <div class="section-3 h-52 bg-blue-500 flex items-center justify-center ">
-                        <img class='w-1/4'src="./assets/images/start-project.png" alt="start-project">
+                    <div class="section-3 h-52 bg-blue-500 flex flex-row items-center justify-center">
+                        
+                            <a href="#startProject"class="flex justify-center start-project"><img class='w-1/4 'src="./assets/images/start-project2.png" alt="start-project"/></a>
                     </div>
-                    <div class="section-4 h-screen bg-gwhite flex flex-col items-center">
-                        <div class="p-12 text-teal-400 font-bold">
+                    <div class="section-4 h-screen bg-gwhite flex flex-col items-center" >
+                        <div class="p-12 text-teal-400 font-bold text-3xl">
                             <h2 >WHO WE WORK WITH</h2>
-                        </div><div class="accordion" id="accordionExample">
-                            <div class="accordion-item bg-white border border-gray-200">
-                              <h2 class="accordion-header mb-0" id="headingOne">
-                                <button class="
-                                  accordion-button
-                                  relative
-                                  flex
-                                  items-center
-                                  w-full
-                                  py-4
-                                  px-5
-                                  text-base text-gray-800 text-left
-                                  bg-white
-                                  border-0
-                                  rounded-none
-                                  transition
-                                  focus:outline-none
-                                " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                  aria-controls="collapseOne">
-                                  Accordion Item #1
-                                </button>
-                              </h2>
-                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body py-4 px-5">
-                                  <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                  until the collapse plugin adds the appropriate classes that we use to style each
-                                  element. These classes control the overall appearance, as well as the showing and
-                                  hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                  our default variables. It's also worth noting that just about any HTML can go within
-                                  the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item bg-white border border-gray-200">
-                              <h2 class="accordion-header mb-0" id="headingTwo">
-                            </h2>
-                                <button class="
-                                  accordion-button
-                                  collapsed
-                                  relative
-                                  flex
-                                  items-center
-                                  w-full
-                                  py-4
-                                  px-5
-                                  text-base text-gray-800 text-left
-                                  bg-white
-                                  border-0
-                                  rounded-none
-                                  transition
-                                  focus:outline-none
-                                " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                  aria-controls="collapseTwo">
-                                  Accordion Item #2
-                                </button>
-                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body py-4 px-5">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                  until the collapse plugin adds the appropriate classes that we use to style each
-                                  element. These classes control the overall appearance, as well as the showing and
-                                  hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                  our default variables. It's also worth noting that just about any HTML can go within
-                                  the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item bg-white border border-gray-200">
-                              <h2 class="accordion-header mb-0" id="headingThree">
-                                <button class="
-                                  accordion-button
-                                  collapsed
-                                  relative
-                                  flex
-                                  items-center
-                                  w-full
-                                  py-4
-                                  px-5
-                                  text-base text-gray-800 text-left
-                                  bg-white
-                                  border-0
-                                  rounded-none
-                                  transition
-                                  focus:outline-none
-                                " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                  aria-controls="collapseThree">
-                                  Accordion Item #3
-                                </button>
-                              </h2>
-                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body py-4 px-5">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                  until the collapse plugin adds the appropriate classes that we use to style each
-                                  element. These classes control the overall appearance, as well as the showing and
-                                  hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                  our default variables. It's also worth noting that just about any HTML can go within
-                                  the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 flex justify-between">
-                            <p class="text-4xl mb-5">Interior Designers</p>
-                            <p class="text-3xl text-gray-400">+</p>
                         </div>
-                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 flex justify-between">
-
-                            <p class="text-4xl mb-5">Architects</p>
-                            <p class="text-3xl text-gray-400">+</p>
+                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 block" x-data="{open1: false}">
+                            <div class="flex justify-between">
+                                <p class="text-4xl mb-5">Interior Designers</p>
+                                <template x-if="!open1"><button  @click="open1 = !open1" class="text-3xl text-gray-400">+</button></template>
+                                <template x-if="open1"><button @click="open1 = !open1" class="text-3xl text-gray-400 rotate-45">+</button></template>
+                            </div>
+                            <div x-show="open1" x-transition>
+                                <p class="mb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam commodi beatae quas at? Sunt tenetur voluptate ratione quisquam, et doloribus ut, veniam alias, veritatis iusto tempora. Qui eveniet nemo vel.</p>
+                            </div>
                         </div>
-                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 flex justify-between">
-
-                            <p class="text-4xl mb-5">Engineers</p>
-                            <p class="text-3xl text-gray-400">+</p>
+                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 block" x-data="{open2: false}">
+                            <div class="flex justify-between">
+                                <p class="text-4xl mb-5">Architects</p>
+                                <template x-if="!open2"><button @click="open2 = !open2" class="text-3xl text-gray-400">+</button></template>
+                                <template x-if="open2"><button @click="open2 = !open2" class="text-3xl text-gray-400 rotate-45">+</button></template>
+                            </div>
+                            <div x-show="open2" x-transition>
+                                <p class="mb-10" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam cumque accusamus blanditiis nobis, ipsa natus eius quo, et labore incidunt eum qui! Blanditiis autem exercitationem libero ullam officia. Libero, aspernatur!</p>
+                            </div>
                         </div>
-                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 flex justify-between">
-
-                            <p class="text-4xl mb-5">Contractors</p>
-                            <p class="text-3xl text-gray-400">+</p>
+                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 block" x-data="{open3: false}">
+                            <div class="flex justify-between">
+                                <p class="text-4xl mb-5">Engineers</p>
+                                <template x-if="!open3"><button @click="open3 = !open3"class="text-3xl text-gray-400">+</button></template>
+                                <template x-if="open3"><button @click="open3 = !open3" class="text-3xl text-gray-400 rotate-45">+</button></template>
+                            </div>
+                            <div x-show="open3" x-transition>
+                                <p class="mb-10" >Engineering brings the details to the forefront when it comes to lighting design and installation. When your team needs to focus on what they do best, we can help finalize the lighting specs and product choices that make the design come together.</p>
+                            </div>
+                        </div>
+                        <div class="mt-8 border-b-2 border-gray-400 w-1/2 block" x-data="{open4: false}">
+                            <div class="flex justify-between">
+                                <p class="text-4xl mb-5">Contractors</p>
+                                <template x-if="!open4"><button @click="open4 = !open4" class="text-3xl text-gray-400">+</button></template>
+                                <template x-if="open4"><button @click="open4 = !open4" class="text-3xl text-gray-400 rotate-45">+</button></template>
+                            </div>
+                            <div x-show="open4" x-transition>
+                                <p class="mb-10" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora recusandae quod ex tenetur qui sit molestias, consequatur delectus incidunt itaque voluptate nulla dignissimos deserunt! Culpa unde veniam nobis facilis eum?</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="section-5 h-96 bg-gray-200 relative flex flex-col items-center">
-                        <div class="flex flex-row justify-center items-center text-teal-400 font-bold h-20 absolute">
+                    <div class="section-5 h-screen bg-gray-200 flex flex-col items-center justify-center relative">
+                        <div class="flex justify-center items-center w-full text-teal-400 font-bold text-3xl h-10 p-32">
                             <h3 >FEATURED PROJECTS</h3>
                         </div>
-                        <div class="carousel absolute flex flex-row">
+                        <div class="flex justify-between mb-32">
+                            <img class='h-60 mr-5 materialboxed'src="./assets/images/j-ahmed-sait-LWP7l0zsNqs-unsplash.jpg">
+                            <img class='h-60 mr-5 materialboxed'src="./assets/images/ricardo-gomez-angel-AI0jVjE-RkI-unsplash.jpg">
+                            <img class='h-60 mr-5 materialboxed'src="./assets/images/white-rainforest-CVVbynP7DQ4-unsplash.jpg">
+                            <img class='h-60 mr-5 materialboxed'src="./assets/images/asia-culturecenter-Yr9wXAFZNek-unsplash.jpg">
+                        </div>
+                        <!-- <div class="carousel absolute flex flex-row">
                             <a class="carousel-item" href="#one!"><img src="./assets/images/j-ahmed-sait-LWP7l0zsNqs-unsplash.jpg"></a>
                             <a class="carousel-item" href="#two!"><img src="./assets/images/ricardo-gomez-angel-AI0jVjE-RkI-unsplash.jpg"></a>
                             <a class="carousel-item" href="#three!"><img src="./assets/images/white-rainforest-CVVbynP7DQ4-unsplash.jpg"></a>
                             <a class="carousel-item" href="#four!"><img src="./assets/images/asia-culturecenter-Yr9wXAFZNek-unsplash.jpg"></a>
                             <a class="carousel-item" href="#five!"><img src="./assets/images/uneebo-office-design-RnmWQkwtFuE-unsplash.jpg"></a>
-                          </div>
+                          </div> -->
                     </div>
-                    <div class="section-6 h-96 flex flex row">
+                    <div class="section-6 h-full flex flex row ">
                         <div class="flex flex-col h-full w-1/2 items-center justify-center ">
-                            <img class="scale-75"src="./assets/images/develop.jpeg" alt="develop">
+                            <img class="scale-75"src="./assets/images/approach.avif" alt="develop">
                         </div>
-                        <div class="flex flex-row h-full w-1/2 justify-center items-center ">
-                            <div class="block px-28">
-                                    <h3 class="text-teal-400 font-bold mb-5">OUR APPROACH</h3>
-                                <p class="text-white mb-5 ">Our team’s diverse background within the industry means that we approach projects a little differently and bring a skillset that many firms may not have on staff. By listening to your needs, wants, and goals for a project, we focus on a partnership instead of a transactional relationship so that we can make a visible difference in the lifetime of a space. When challenges and roadblocks arise, we face them head on and confidently adapt to present brilliant solutions.
+                        <div class="flex flex-col w-1/2 justify-center ">
+                            <div class="block px-22">
+                                    <h3 class="text-teal-400 font-bold my-12 text-3xl">OUR APPROACH</h3>
+                                <p class="text-white mb-16 pr-12">Our team’s diverse background within the industry means that we approach projects a little differently and bring a skillset that many firms may not have on staff. By listening to your needs, wants, and goals for a project, we focus on a partnership instead of a transactional relationship so that we can make a visible difference in the lifetime of a space. When challenges and roadblocks arise, we face them head on and confidently adapt to present brilliant solutions.
                                 </p>
-                                <div class="">
-                                    <button class="section-6-btn text-white border-white border px-4 py-1 mr-3 rounded">SERVICES</button>
+                                <div class="flex flex-row">
+                                    <button class="section-6-btn text-white border-white border px-4 py-1 mr-6 rounded">SERVICES</button>
                                     <button class="section-6-btn text-white border-white border px-4 py-1 rounded">FEATURED PRODUCTS</button>
                                 </div>
                             </div>
@@ -229,7 +161,7 @@
                     <div class="section-7 h-80 bg-white flex flex-col justify-center items-center">
                         <div class="block">
                             <div class="flex justify-center mb-12">
-                                <h3 class="text-teal-400 font-bold mb-5">COMMUNITY PARTNERS</h3>
+                                <h3 class="text-teal-400 font-bold mb-5 text-3xl">COMMUNITY PARTNERS</h3>
                             </div>
                             <div class="flex flex-row">
                                 <img class="h-16 mr-10"src="./assets/images/aia.png" alt="aia">
@@ -240,7 +172,7 @@
                     <div class="section-8 h-1/2 bg-neutral-100 flex flex-row items-center justify-center">
                         <div class="block ml-20 w-1/2">
                             <div class="flex justify-center mb-8">
-                                <h3 class="text-teal-400 font-bold mb-5">TESTIMONIAL</h3>
+                                <h3 class="text-teal-400 font-bold mb-5 text-3xl">TESTIMONIAL</h3>
                             </div>
                             <p class="px-20 font-bold text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime accusantium laboriosam nobis veritatis cumque animi consequatur expedita in ullam rerum, illo commodi sequi aliquam earum doloribus facilis? Aliquam, illum rem?</p>
                         </div>
@@ -265,7 +197,7 @@
                                     <button class="section-10-btn text-white border-white border px-4 py-1 rounded">CONTACT US</button>
                                 </div>
                                 <div class="w-1/2 flex justify-end">
-                                    <img class="w-1/2"src="./assets/images/start-project.png" alt="start-project">
+                                    <img class="w-1/2"src="./assets/images/start-project2.png" alt="start-project">
                                 </div>
                             </div>
                             <div class="w-full flex flex-row justify">
@@ -295,29 +227,41 @@
                                     </div>
                                     <div class="flex justify-end items-end mt-10">
                                         <div class="flex justify-between">
-                                            <i class="fa-brands fa-linkedin mr-5"></i>
-                                            <i class="fa-brands fa-facebook-f mr-5"></i>
-                                            <i class="fa-brands fa-instagram mr-5"></i>
-                                            <i class="fa-brands fa-vimeo-v mr-5"></i>
+                                            <button><i class="fa-brands fa-linkedin mr-5"></i></button>
+                                            <button><i class="fa-brands fa-facebook-f mr-5"></i></button>
+                                            <button><i class="fa-brands fa-instagram mr-5"></i></button>
+                                            <button><i class="fa-brands fa-vimeo-v mr-5"></i></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <footer>
-                        
+                    <footer class="bg-white flex flex-row justify-center items-center text-teal-400 h-20 ">
+                        <p>© 2021 Perkins-Everitt |</p>
+                        <div class="ml-4">
+                            <p >  Paradigm Marking and Creative |</p>
+                        </div>
+                        <div class="ml-4">
+                            <p>  Your Privacy & Security</p>
+                        </div>
                     </footer>
         </main>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
-    <script src="https://kit.fontawesome.com/f62a5baa39.js" crossorigin="anonymous"></script>
     <script>
-        $(document).ready(function(){
-            $('.carousel').carousel();
-          });
+          $(document).ready(function(){
+    $('.tabs').tabs();
+  });
     </script>
+    <script>
+         $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+    </script>
+    <script src="../index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f62a5baa39.js" crossorigin="anonymous"></script>
 </body>
 </html>

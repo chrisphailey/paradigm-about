@@ -3,17 +3,31 @@
 @tailwind utilities;
 
 *{
-    font-family: aviano, serif;
+    font-family: manofa;
 font-style: normal;
 font-weight: 700
 }
   .table-img{
       width: 500px;
   }
-  .section-6, .section-10{
+  .nav-list-item button:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .start-project:focus{
+      background-color: #101653;
+  }
+  .section-2, .section-3, .section-6, .section-10{
       background-color: #101653
   }
-  .section-6-btn:hover{
+  .section-4 button:focus{
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: white;
+  }
+  .section-6-btn:hover, .section-10-btn:hover{
       background-color: white;
       color: #101653
   }
@@ -25,10 +39,20 @@ font-weight: 700
   .section-9-p{
       text-shadow: 2px 2px 8px blanchedalmond;
   }
-  .section-9-btn:hover ~ .section-9{
-      background-image: url(../public/assets/images/glow-light.jpg);
-      background-position: center;
+  .section-9-btn:hover{
+      background-color: white;
+      color: rgb(11, 72, 138);
   }
+  .swiper{
+    width: 600px;
+    height: 300px;
+  }
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
   
   
     
