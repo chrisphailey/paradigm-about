@@ -2,25 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.front-container{
+*{
+    font-family: aviano, serif;
+font-style: normal;
+font-weight: 700
 }
-.image-stack {
-    background: linear-gradient(to bottom, rgb(239, 239, 239) 50%, rgb(1, 1, 78) 50%);
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
-  }
-  .image-stack__item--top {
-    grid-column: 1 / span 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 1
-  }
-  .image-stack__item--bottom {
-    grid-column: 4 / -1;
-    grid-row: 1; 
-  }
   .table-img{
       width: 500px;
   }
+  .section-6, .section-10{
+      background-color: #101653
+  }
+  .section-6-btn:hover{
+      background-color: white;
+      color: #101653
+  }
+  .section-9{
+      background-image: url(../public/assets/images/light-bulb.avif);
+      background-position: center;
+      height: 833px;
+  }
+  .section-9-p{
+      text-shadow: 2px 2px 8px blanchedalmond;
+  }
+  .section-9-btn:hover ~ .section-9{
+      background-image: url(../public/assets/images/glow-light.jpg);
+      background-position: center;
+  }
+  
+  
     
