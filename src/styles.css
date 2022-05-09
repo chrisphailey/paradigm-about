@@ -43,14 +43,9 @@ font-weight: 700
       background-color: white;
       color: rgb(11, 72, 138);
   }
-  .swiper{
-    width: 600px;
-    height: 300px;
-  }
-  .swiper-slide{
-    display: flex;
-    justify-content: center;
-    align-items: center
+.footer-btn:hover{
+    background-color: white;
+    color: #101653;
 }
 
   

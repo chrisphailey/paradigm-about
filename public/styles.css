@@ -4518,6 +4518,10 @@ textarea.form-control.is-invalid {
   padding: 7rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -4644,15 +4648,9 @@ textarea.form-control.is-invalid {
   color: rgb(11, 72, 138);
 }
 
-.swiper{
-  width: 600px;
-  height: 300px;
-}
-
-.swiper-slide{
-  display: flex;
-  justify-content: center;
-  align-items: center
+.footer-btn:hover{
+  background-color: white;
+  color: #101653;
 }
 
   
