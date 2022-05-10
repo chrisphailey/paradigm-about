@@ -1,9 +1,16 @@
-function turnOnLight() {
-  console.log("working");
+function turnOnLight(event) {
+  event.preventDefault();
   document.getElementById("section-9").style.backgroundImage =
-    "url(./assets/images/glow-light.jpg";
+    "url(./assets/images/glow-light-1.jpg";
 }
-
-// document
-//   .getElementById("section-9-btn")
-//   .addEventListener("click", turnOnLight());
+function turnOffLight(event) {
+  event.preventDefault();
+  document.getElementById("section-9").style.backgroundImage =
+    "url(./assets/images/light-bulb.jpg";
+}
+document
+  .getElementById("section-9-btn")
+  .addEventListener("mouseover", turnOnLight);
+document
+  .getElementById("section-9-btn")
+  .addEventListener("mouseleave", turnOffLight);

@@ -35,6 +35,7 @@ font-weight: 700
       background-image: url(./assets/images/light-bulb.jpg);
       background-position: center;
       height: 833px;
+      background-size: cover;
   }
   .section-9-p{
       text-shadow: 2px 2px 8px blanchedalmond;
@@ -47,6 +48,24 @@ font-weight: 700
     background-color: white;
     color: #101653;
 }
+/* #fade_out {
+    position:relative;
+    height:100%;
+    width:auto;
+    margin:0 auto;
+  }
+  
+  #fade_out img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    transition: opacity 2s linear;
+  }
+  
+  #fade_out img.top:hover {
+    opacity:0;
+  } */
 
   
   
