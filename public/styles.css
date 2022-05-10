@@ -4153,6 +4153,10 @@ textarea.form-control.is-invalid {
   z-index: 40;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .col-span-7 {
   grid-column: span 7 / span 7;
 }
