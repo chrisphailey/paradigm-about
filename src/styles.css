@@ -10,9 +10,10 @@ font-weight: 700
   .table-img{
       width: 500px;
   }
-  .nav-list-item button:hover{
-    background-color: black;
-    color: white;
+  .nav-list-item a:hover{
+    /* background-color: black;
+    color: white; */
+    border-bottom: black solid 2px;
   }
   
   .start-project:focus{
@@ -45,27 +46,9 @@ font-weight: 700
       color: rgb(11, 72, 138);
   }
 .footer-btn:hover{
-    background-color: white;
-    color: #101653;
+    border-bottom: white solid 2px;
+    /* color: #101653; */
 }
-/* #fade_out {
-    position:relative;
-    height:100%;
-    width:auto;
-    margin:0 auto;
-  }
-  
-  #fade_out img {
-    position:absolute;
-    left:0;
-    -webkit-transition: opacity 2s linear;
-    -moz-transition: opacity 2s linear;
-    transition: opacity 2s linear;
-  }
-  
-  #fade_out img.top:hover {
-    opacity:0;
-  } */
 
   
   
