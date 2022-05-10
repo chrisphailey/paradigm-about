@@ -4634,7 +4634,7 @@ textarea.form-control.is-invalid {
 }
 
 .section-9{
-  background-image: url(../public/assets/images/light-bulb.jpg);
+  background-image: url(./assets/images/light-bulb.jpg);
   background-position: center;
   height: 833px;
 }
