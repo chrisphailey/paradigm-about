@@ -4255,28 +4255,20 @@ textarea.form-control.is-invalid {
   margin-right: 5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
-}
-
-.ml-12 {
-  margin-left: 3rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .ml-10 {
   margin-left: 2.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
