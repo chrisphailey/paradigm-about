@@ -9,3 +9,6 @@ This is an about page created for a commercial lighting company designed from a 
 
 ## Screenshot
 ![paradigm screenshot](./public/assets/images/screenshot.png)
+
+## URL
+chrisphailey.github.io/paradigm-about/
